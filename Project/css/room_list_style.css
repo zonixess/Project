@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    width: 100%;
+    padding: 120px 130px 70px 130px;}
+.body .list-item{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1fr,1fr,1fr);
+    gap: 2rem;
+}
+.body .list-item .card{
+    width: 100%;
+    height: 250px; 
+    display: flex;
+    flex-direction: row;
+}
+.list-item .card .image{
+    width: 500px;
+    height: 100%;
+    background-color: aquamarine;
+}
+.list-item .card .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* cardBody */
+.list-item .card #card-body{
+    width: 100%;
+    height: 100%;
+    padding: 50px 70px;
+    position: relative;
+}
+/* Iconlist */
+.list-item .card #card-body .icon-list ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+.list-item .card #card-body .icon-list ul li{
+    margin-right: 30px;
+}
+.list-item .card #card-body .icon-list ul i{
+    margin-bottom: 14px;
+    color: gray;
+}
+.list-item .card #card-body .icon-list ul li h4{
+    font-size: 16px;
+}
+.list-item .card #card-body .icon-list ul .text{
+    color: gray;
+}
+/* -- */
+.list-item .card #card-body h3{
+    margin: 10px 0;
+    font-family: 'Playfair Display', sans-serif;
+}
+/* price room*/
+.list-item .card #card-body .price{
+    position: absolute;
+    background-color: #D68910;
+    width: fit-content;
+    padding: 2px 12px;
+    color: white;
+    font-weight: bold;
+    top: 40%;
+    right: 80px;
+}
+.list-item .card #card-body .view_room{
+    position: absolute;
+    right: 52px;
+    top: 60%;
+    border: 1px solid #D5D8DC ;
+    color: #707B7C;
+    padding: 10px 20px;
+    text-decoration: underline;
+    font-weight: bold;
+}

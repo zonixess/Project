@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+}
+body {
+  width: 100%;
+}
+.contact-body {
+  width: 100%;
+  padding: 0 0 80px 0;
+}
+.contact-body .contact {
+  width: 100%;
+  position: relative;
+}
+.contact-body .contact .contact-one {
+  position: absolute;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  z-index: 1;
+  margin-top: 6rem;
+}
+.contact-body .contact .contact-one .box span i{
+    color: #D68910;
+    font-size: 95px;
+}
+.contact-body .contact .map {
+  padding-top: 22%;
+}
+.contact-body .contact .map img {
+  align-items: center;
+  text-align: center;
+
+  width: 100%;
+  height: 500px;
+}
+.contact-body .contact .box {
+  background-color: white;
+  padding: 0 5rem;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+.contact-body .contact .box span {
+  font-size: 8rem;
+}
+.contact-body .contact-two .grid-one img {
+  width: 600px;
+  height: 600px;
+  padding-left: 20px;
+  margin-right: 10px;
+}
+.grid-two .form-input {
+  font-size: 2rem;
+}
+.grid-two .form-input .form {
+  font-size: 2rem;
+}
+.grid-two .form-input .form input {
+  font-size: 15px;
+  padding: 0.8rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid rgb(216, 216, 216);
+}
+.mess .send-message{
+    font-size: 15px;
+    background-color: #D68910;
+    padding: 17px 40px;
+    color: white;
+    transition: 0.5s;
+
+}
+.mess .send-message:hover{
+  font-size: 15px;
+  background-color: black;
+  transition: 0.5s;
+  padding: 17px 40px;
+  color: white;
+}
